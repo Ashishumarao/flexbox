@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  width: 33.33%;
+  height: 235px;
+}
+.item:nth-child(1) {
+  background-color: black;
+}
+.item:nth-child(2) {
+  background-color: rgb(206, 138, 138);
+}
+.item:nth-child(3) {
+  background-color: rgb(183, 64, 64);
+}
+.item:nth-child(4) {
+  background-color: rgb(13, 173, 80);
+}
+.item:nth-child(5) {
+  background-color: rgb(145, 142, 142);
+}
+.item:nth-child(6) {
+  background-color: rgb(15, 129, 149);
+}
+.item:nth-child(7) {
+  background-color: rgb(101, 150, 46);
+}
+.item:nth-child(8) {
+  background-color: rgb(194, 48, 48);
+}
+.item:nth-child(9) {
+  background-color: rgb(129, 27, 27);
+}
+@media only screen and (max-width: 800px) {
+  .item {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .item {
+    width: 100%;
+  }
+}
